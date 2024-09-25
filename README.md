@@ -21,7 +21,7 @@ This project demonstrates how to interact with an Ethereum smart contract deploy
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/block-eaters-1.git
+   git clone https://github.com/Ojochogwu866/block-eaters-1.git
    cd block-eaters-1
    ```
 
