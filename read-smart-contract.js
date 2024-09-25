@@ -1,4 +1,3 @@
-
 const votingContractABI = require('./votingContractABI');
 const { ethers } = require('ethers')
 const provider = new ethers.providers.JsonRpcProvider('https://linea-sepolia.infura.io/v3/2a253b904fcc44d980240bf856b40043')
@@ -13,15 +12,12 @@ const readContract = async() => {
         provider
     )
 
-    // check contact name
     const contractName =  await walletContract.name()
     console.log(contractName)
 
-    // check contract value
     const contractValue = await walletContract.value()
     console.log(contractValue.toString())
 
-    //check contract balance 
     const contractBalance = await walletContract.balance()
     console.log(contractBalance.toString())
 }
